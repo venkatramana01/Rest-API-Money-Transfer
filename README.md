@@ -34,6 +34,7 @@ Ex:
 
 
 2>Getting an account
+
 Get:	http://localhost:8090/moneytransferrestapi/webapi/accounts/account/{id}
 Ex: 
 {
@@ -43,6 +44,7 @@ Ex:
 
 
 3>getting all accounts
+
 Get:	 http://localhost:8090/moneytransferrestapi/webapi/accounts/allaccounts
 [
         {
