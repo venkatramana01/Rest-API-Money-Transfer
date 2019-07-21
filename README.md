@@ -17,7 +17,9 @@ Features
 -------------------
 Account creation
 
-Transfer creation
+Getting Account using ID
+
+Getting All accounts
 
 Transfer execution
 
