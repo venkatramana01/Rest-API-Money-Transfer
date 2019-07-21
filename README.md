@@ -30,6 +30,7 @@ In-memory datastore
 How to use services
 ----------------------
 Application starts a Tomcat server on localhost port 8080.
+
 1>posting an account
 
 POST:       http://localhost:8090/moneytransferrestapi/webapi/accounts/account
