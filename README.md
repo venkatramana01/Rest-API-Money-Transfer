@@ -29,8 +29,10 @@ Application starts a Tomcat server on localhost port 8080.
 POST:       http://localhost:8090/moneytransferrestapi/webapi/accounts/account
 Ex: 
 {
+
 	"id":"1",
 "balance":8542344
+
 }
 
 
@@ -39,8 +41,10 @@ Ex:
 Get:	http://localhost:8090/moneytransferrestapi/webapi/accounts/account/{id}
 Ex: 
 {
+
 		"id":"1",
 "balance":8542344
+
 }
 
 
@@ -48,18 +52,22 @@ Ex:
 
 Get:	 http://localhost:8090/moneytransferrestapi/webapi/accounts/allaccounts
 [
+
         {
             "id": “1”,
             "balance": 245,
          },
+	 
         {
             "id": “2”,
             "balance": 345,
         },
+	
         {
 		"id": “3”,
              "balance": 567,
         }
+	
     ]
 
 
@@ -67,14 +75,17 @@ Get:	 http://localhost:8090/moneytransferrestapi/webapi/accounts/allaccounts
 
 POST: http://localhost:8090/moneytransferrestapi/webapi/transactions/transfer
 Source:
+
 	{
 	"source":"1",
 	"target":"2",
 	"amount":555
 }
+
 Output:
 {
 	"id":"2",
 	"amount":590
 }
+
 
