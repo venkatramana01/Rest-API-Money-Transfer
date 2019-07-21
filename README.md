@@ -77,9 +77,11 @@ POST: http://localhost:8090/moneytransferrestapi/webapi/transactions/transfer
 Source:
 
 {
+
 	"source":"1",
 	"target":"2",
 	"amount":54234
+	
 }
 
 
