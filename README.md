@@ -24,12 +24,15 @@ How to use services
 ----------------------
 Application starts a Tomcat server on localhost port 8080.
 1>posting an account
+
 POST:       http://localhost:8090/moneytransferrestapi/webapi/accounts/account
 Ex: 
 {
 	"id":"1",
 "balance":8542344
 }
+
+
 2>Getting an account
 Get:	http://localhost:8090/moneytransferrestapi/webapi/accounts/account/{id}
 Ex: 
@@ -37,6 +40,8 @@ Ex:
 		"id":"1",
 "balance":8542344
 }
+
+
 3>getting all accounts
 Get:	 http://localhost:8090/moneytransferrestapi/webapi/accounts/allaccounts
 [
@@ -53,6 +58,7 @@ Get:	 http://localhost:8090/moneytransferrestapi/webapi/accounts/allaccounts
              "balance": 567,
         }
     ]
+
 
 4>Transferring funds between accounts
 
