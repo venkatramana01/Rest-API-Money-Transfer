@@ -50,7 +50,7 @@ Ex:
 {
 
 		"id":"1",
-		"balance":8542344
+		"balance":1000
 
 }
 
@@ -62,17 +62,17 @@ Get:	 http://localhost:8090/moneytransferrestapi/webapi/accounts/allaccounts
 
         {
             "id": “1”,
-            "balance": 245,
+            "balance": 1000,
          },
 	 
         {
             "id": “2”,
-            "balance": 345,
+            "balance": 550,
         },
 	
         {
 		"id": “3”,
-             "balance": 567,
+             "balance": 2000,
         }
 	
     ]
@@ -89,7 +89,7 @@ Input
 
 	"source":"1",
 	"target":"2",
-	"amount":54234
+	"amount":1000
 	
 }
 
@@ -105,7 +105,7 @@ Output:
     },
     
     {
-        "balance": "108468",
+        "balance": "1550",
         "id": "2"
     }
 ]
