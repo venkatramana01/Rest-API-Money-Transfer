@@ -75,6 +75,7 @@ Get:	 http://localhost:8090/moneytransferrestapi/webapi/accounts/allaccounts
 
 POST: http://localhost:8090/moneytransferrestapi/webapi/transactions/transfer
 Source:
+Input
 
 {
 
