@@ -15,7 +15,7 @@ Apache HTTP Client
 
 Features
 -------------------
-Account creation/update/deletion
+Account creation
 Transfer creation
 Transfer execution
 Meaningful HTTP return codes
