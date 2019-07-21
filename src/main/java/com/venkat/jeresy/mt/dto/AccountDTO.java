@@ -1,18 +1,30 @@
-package com.venkat.jeresy.mt.dto;
+package com.venkat.jersey.mt.model;
 
-import com.venkat.jersey.mt.model.Account;
-
+import javax.xml.bind.annotation.XmlRootElement;
+@XmlRootElement
 public class AccountDTO {
 
-    private final String id;
-    private final String balance;
+    private  String id;
+    private  String balance;
 
-    private AccountDTO(String id, String balance) {
+    public void setId(String id) {
+		this.id = id;
+	}
+
+	public void setBalance(String balance) {
+		this.balance = balance;
+	}
+
+	private AccountDTO(String id, String balance) {
         this.id = id;
         this.balance = balance;
     }
 
-    public static AccountDTO from(Account account) {
+    public AccountDTO() {
+		super();
+	}
+
+	public static AccountDTO from(Account account) {
         return new AccountDTO(account.getId(), String.valueOf(account.getBalance()));
     }
 
