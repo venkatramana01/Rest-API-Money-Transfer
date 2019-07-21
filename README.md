@@ -21,7 +21,7 @@ Getting Account using ID
 
 Getting All accounts
 
-Transfer execution
+Transfer amount between accounts
 
 Meaningful HTTP return codes
 
