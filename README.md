@@ -76,3 +76,17 @@ Output:
 	"id":"2",
 	"amount":590
 }
+
+
+
+Available Services
+-------------------
+HTTP METHOD	PATH	USAGE
+
+GET	/accounts	Welcome Message
+POST	/accounts/account	Add account
+GET	/accounts/{accountId}	get account by accountId
+GET	/accounts/allaccounts	get all accounts
+POST	/transactions/transfer	perform transaction between 2 users 
+accounts
+
