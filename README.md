@@ -16,9 +16,13 @@ Apache HTTP Client
 Features
 -------------------
 Account creation
+
 Transfer creation
+
 Transfer execution
+
 Meaningful HTTP return codes
+
 In-memory datastore
 
 How to use services
