@@ -76,16 +76,21 @@ Get:	 http://localhost:8090/moneytransferrestapi/webapi/accounts/allaccounts
 POST: http://localhost:8090/moneytransferrestapi/webapi/transactions/transfer
 Source:
 
-	{
+{
 	"source":"1",
 	"target":"2",
-	"amount":555
+	"amount":54234
 }
+
 
 Output:
-{
-	"id":"2",
-	"amount":590
-}
-
-
+[
+    {
+        "balance": "0",
+        "id": "1"
+    },
+    {
+        "balance": "108468",
+        "id": "2"
+    }
+]
