@@ -85,12 +85,19 @@ Source:
 
 Output:
 [
+
     {
+    
         "balance": "0",
+	
         "id": "1"
+	
     },
+    
     {
+    
         "balance": "108468",
+	
         "id": "2"
     }
 ]
